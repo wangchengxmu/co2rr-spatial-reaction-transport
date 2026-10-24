@@ -1,0 +1,2457 @@
+{
+  "curve_checks": [
+    {
+      "Cu_only": true,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": true,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 48
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 10,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 30,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO2_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "OH_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "HCO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "CO3_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "Cs_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "SO4_mM",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13gas",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.5,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.25,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.1,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.05,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.02,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.01,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.002,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.001,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    },
+    {
+      "Cu_only": false,
+      "chi": 0.0005,
+      "delta_CO2_um": 50,
+      "exact_CSV_values": true,
+      "field": "f13_CO2_13liquid",
+      "n_points": 144
+    }
+  ],
+  "figures": [
+    {
+      "figure": "restored_Cu_isotope_comparison",
+      "outside_canvas_text": []
+    },
+    {
+      "figure": "restored_d10_spatial_profiles",
+      "outside_canvas_text": []
+    },
+    {
+      "figure": "restored_d30_spatial_profiles",
+      "outside_canvas_text": []
+    },
+    {
+      "figure": "restored_d50_spatial_profiles",
+      "outside_canvas_text": []
+    }
+  ],
+  "production_case_count": 30,
+  "schema": "co2rr-spatial-plot-qa-v1",
+  "source_hashes_sha256": {
+    "cases\\d10_chi0p0005\\case_mean_profile.csv": "dd88d32bb3f41916b83bcf54ebbb3b4e8f12acaa4069310fce5a2e030c7c9f56",
+    "cases\\d10_chi0p001\\case_mean_profile.csv": "31954e192fd0d1a87359df9dec330b820f2369a08e06046958d4625fe24ad09e",
+    "cases\\d10_chi0p002\\case_mean_profile.csv": "e42b786ea42382fa031ac34ec1eef4340ad5e35ab6a90835e4632f90df6d95dc",
+    "cases\\d10_chi0p005\\case_mean_profile.csv": "aac35caeda3f90eaa341bfe1844c34c45d5d2b02a5e25e281be4cffed978b4e9",
+    "cases\\d10_chi0p01\\case_mean_profile.csv": "ee293a9966100a437035446d16873f721c8dcc56c6779e25fa62ade9e58ae1ee",
+    "cases\\d10_chi0p02\\case_mean_profile.csv": "5b836e2b1cc50e575885a4fab920825457e6fd8916ff017876f46a99f7955d72",
+    "cases\\d10_chi0p05\\case_mean_profile.csv": "6ee654b5fba6ac842ae9c01c51aef62863c800373c7f223ef6e7efb71ee324a3",
+    "cases\\d10_chi0p1\\case_mean_profile.csv": "4a6600189fba7d069b4c6ed10b07b5692f5b6004bb508ff1cea5a6441e580ebb",
+    "cases\\d10_chi0p25\\case_mean_profile.csv": "b2f820da8fffecd9b53373ff395be573b75e5b54f23c929938098782524ab4be",
+    "cases\\d10_chi0p5\\case_mean_profile.csv": "c4a313a7180edc4aa62d4a8f04074743a524cab457c9dda14cca717bd3746a82",
+    "cases\\d30_chi0p0005\\case_mean_profile.csv": "2805b9c13a101becb4083143b1ca67ee149467f2d5745b857b4e17c933d5b306",
+    "cases\\d30_chi0p001\\case_mean_profile.csv": "ff925f334a98deabe70d24bd9c4b3f25cead8dab694034b8f20525a344cf8878",
+    "cases\\d30_chi0p002\\case_mean_profile.csv": "e143ab65b7796e8cfaf835f5db7d233f7fad8cd487b026d046720ed31b92d3c1",
+    "cases\\d30_chi0p005\\case_mean_profile.csv": "57f2ce4392492ffff9ecfa8d58ca6cc1648c181b5595bb359cd8500b96950d06",
+    "cases\\d30_chi0p01\\case_mean_profile.csv": "0959ba8671a7acedea2e45a6d09da476b4723602cebac348fd6cf886088798fb",
+    "cases\\d30_chi0p02\\case_mean_profile.csv": "b3fcbdcbead693ea055b9599def1b126422349268890db81113f3806641badb0",
+    "cases\\d30_chi0p05\\case_mean_profile.csv": "8f953aa099e2525f825dac5318bdbe0f25c3b0d74c92913ef96181c8c0072343",
+    "cases\\d30_chi0p1\\case_mean_profile.csv": "5a0eecc450914992d35be13e6105ba7a7172e3099f2ff8485cd0f8898a278f16",
+    "cases\\d30_chi0p25\\case_mean_profile.csv": "9a914315f3939fec88aa42003ab3d35d4245892e427b37fd977af2532558ed4a",
+    "cases\\d30_chi0p5\\case_mean_profile.csv": "090b1749946b2461db5b505890e2edafb0b571c4e1296143fc79dfa8016983c2",
+    "cases\\d50_chi0p0005\\case_mean_profile.csv": "c24b9d03b5af3d2db45eb6a1986934451158dc90f7af899dbd431cb2dd504d7f",
+    "cases\\d50_chi0p001\\case_mean_profile.csv": "9c795131abb3843c46f9f6ab08850738af39eab599d2e46c8761205a7eb05f6a",
+    "cases\\d50_chi0p002\\case_mean_profile.csv": "48d0138df54b0402ce527bf7de056f13f4dcc1c794f97b8d1441ecf66f7e74cc",
+    "cases\\d50_chi0p005\\case_mean_profile.csv": "8fd04c9a5ce6153438089e7376ba1cb910c70e899016608aae3e2b894cf4fbdc",
+    "cases\\d50_chi0p01\\case_mean_profile.csv": "24a47e64162c52df04a39d82f5b7fa0562c7bea3406453ed758e114a3d0b7a17",
+    "cases\\d50_chi0p02\\case_mean_profile.csv": "7a33631a2ee06049778e580fe32acf741e6ebf4d5fb4adf16c815ddefa4770b8",
+    "cases\\d50_chi0p05\\case_mean_profile.csv": "9d70de85ab7321f3c81806650933aeea020470eed7bcb35883859c132808cc5c",
+    "cases\\d50_chi0p1\\case_mean_profile.csv": "c5ffb1eb8c7afd8f4c2d918e4e7d5d772e47861e8337dd035554fa6afb48bf6e",
+    "cases\\d50_chi0p25\\case_mean_profile.csv": "521152170eb667878c3607eae0da46c59ca93ef70d2587d2e918e97a65341353",
+    "cases\\d50_chi0p5\\case_mean_profile.csv": "39c24f84dd74ad207bc398f1882cd0bf813555100264c634b4866a30434f09e9"
+  },
+  "source_profiles_unchanged": true
+}

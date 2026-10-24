@@ -1,0 +1,350 @@
+[
+  {
+    "delta_CO2_um": 10,
+    "chi": 0.05,
+    "comparison": "fine",
+    "status": "compared",
+    "differences": {
+      "catalyst_CO2_mM": {
+        "max_absolute": 0.03328217349811524,
+        "max_difference_over_base_peak": 0.0010154314102803644
+      },
+      "catalyst_OH_mM": {
+        "max_absolute": 0.039645871103754615,
+        "max_difference_over_base_peak": 0.0013134241283159263
+      },
+      "catalyst_DIC_mM": {
+        "max_absolute": 0.4945648465537147,
+        "max_difference_over_base_peak": 0.005008120087622514
+      },
+      "catalyst_Cs_mM": {
+        "max_absolute": 0.43002238268832116,
+        "max_difference_over_base_peak": 0.0003996966142600114
+      },
+      "catalyst_gas_fraction_CO2": {
+        "max_absolute": 0.0014737484998922357,
+        "max_difference_over_base_peak": 0.0014756843809020524
+      },
+      "catalyst_gas_fraction_DIC": {
+        "max_absolute": 0.0006935707639357247,
+        "max_difference_over_base_peak": 0.0009186108100085181
+      },
+      "liquid_CO2_mM": {
+        "max_absolute": 0.08573406971106579,
+        "max_difference_over_base_peak": 0.0025980021124565383
+      },
+      "liquid_OH_mM": {
+        "max_absolute": 0.031435212585769534,
+        "max_difference_over_base_peak": 0.0017356305455699897
+      },
+      "liquid_DIC_mM": {
+        "max_absolute": 0.47457083779552534,
+        "max_difference_over_base_peak": 0.005772499385638593
+      },
+      "liquid_Cs_mM": {
+        "max_absolute": 0.45282849763225386,
+        "max_difference_over_base_peak": 0.0004233598853848563
+      },
+      "liquid_gas_fraction_CO2": {
+        "max_absolute": 0.0017978793173276664,
+        "max_difference_over_base_peak": 0.0024116825248294994
+      },
+      "liquid_gas_fraction_DIC": {
+        "max_absolute": 0.003890137467599364,
+        "max_difference_over_base_peak": 0.0059938334936025335
+      }
+    },
+    "reaction_weighted_gas_source_difference_percentage_points": -0.049924632426334714,
+    "note": "Raw numerical differences; endpoint cell-centre interpolation included. No low-CO2 masking and no automatic declaration of convergence."
+  },
+  {
+    "delta_CO2_um": 10,
+    "chi": 0.05,
+    "comparison": "domain",
+    "status": "compared",
+    "differences": {
+      "catalyst_CO2_mM": {
+        "max_absolute": 0.007152039440772029,
+        "max_difference_over_base_peak": 0.0002182070680009885
+      },
+      "catalyst_OH_mM": {
+        "max_absolute": 0.01739460891942457,
+        "max_difference_over_base_peak": 0.0005762642722012987
+      },
+      "catalyst_DIC_mM": {
+        "max_absolute": 0.050698979511707876,
+        "max_difference_over_base_peak": 0.0005133939047302864
+      },
+      "catalyst_Cs_mM": {
+        "max_absolute": 0.032665715697476116,
+        "max_difference_over_base_peak": 3.0362084608336608e-05
+      },
+      "catalyst_gas_fraction_CO2": {
+        "max_absolute": 5.6020585899152486e-05,
+        "max_difference_over_base_peak": 5.6094173209612115e-05
+      },
+      "catalyst_gas_fraction_DIC": {
+        "max_absolute": 0.00012088884877370365,
+        "max_difference_over_base_peak": 0.00016011315509155527
+      },
+      "liquid_CO2_mM": {
+        "max_absolute": 0.14470510140441206,
+        "max_difference_over_base_peak": 0.004385003072860971
+      },
+      "liquid_OH_mM": {
+        "max_absolute": 0.3257919106259983,
+        "max_difference_over_base_peak": 0.017987929619985056
+      },
+      "liquid_DIC_mM": {
+        "max_absolute": 0.2440710352030777,
+        "max_difference_over_base_peak": 0.0029687873517609256
+      },
+      "liquid_Cs_mM": {
+        "max_absolute": 0.209599908359678,
+        "max_difference_over_base_peak": 0.00019595982506360088
+      },
+      "liquid_gas_fraction_CO2": {
+        "max_absolute": 0.0067159613048765054,
+        "max_difference_over_base_peak": 0.009008817421892563
+      },
+      "liquid_gas_fraction_DIC": {
+        "max_absolute": 0.001994842165376598,
+        "max_difference_over_base_peak": 0.0030736064945960555
+      }
+    },
+    "reaction_weighted_gas_source_difference_percentage_points": -6.1796304939854e-05,
+    "note": "Raw numerical differences; endpoint cell-centre interpolation included. No low-CO2 masking and no automatic declaration of convergence."
+  },
+  {
+    "delta_CO2_um": 30,
+    "chi": 0.05,
+    "comparison": "fine",
+    "status": "compared",
+    "differences": {
+      "catalyst_CO2_mM": {
+        "max_absolute": 0.018403579924118674,
+        "max_difference_over_base_peak": 0.0005629878059279377
+      },
+      "catalyst_OH_mM": {
+        "max_absolute": 0.07019076765080001,
+        "max_difference_over_base_peak": 0.0014497778098061561
+      },
+      "catalyst_DIC_mM": {
+        "max_absolute": 1.2125753684556457,
+        "max_difference_over_base_peak": 0.004472625586555655
+      },
+      "catalyst_Cs_mM": {
+        "max_absolute": 1.3512630272939532,
+        "max_difference_over_base_peak": 0.0010824389517191631
+      },
+      "catalyst_gas_fraction_CO2": {
+        "max_absolute": 0.0013877199961005449,
+        "max_difference_over_base_peak": 0.001387827693941606
+      },
+      "catalyst_gas_fraction_DIC": {
+        "max_absolute": 0.0002269911203268693,
+        "max_difference_over_base_peak": 0.0002625771741051681
+      },
+      "liquid_CO2_mM": {
+        "max_absolute": 0.16852307788625254,
+        "max_difference_over_base_peak": 0.005106759935947045
+      },
+      "liquid_OH_mM": {
+        "max_absolute": 0.06244999143750363,
+        "max_difference_over_base_peak": 0.001732529320251966
+      },
+      "liquid_DIC_mM": {
+        "max_absolute": 1.2665458672435363,
+        "max_difference_over_base_peak": 0.005111633466342933
+      },
+      "liquid_Cs_mM": {
+        "max_absolute": 1.3608211862831467,
+        "max_difference_over_base_peak": 0.0010965033434056348
+      },
+      "liquid_gas_fraction_CO2": {
+        "max_absolute": 0.00877119343037569,
+        "max_difference_over_base_peak": 0.00901033298343444
+      },
+      "liquid_gas_fraction_DIC": {
+        "max_absolute": 0.009348596514966528,
+        "max_difference_over_base_peak": 0.011011254140082785
+      }
+    },
+    "reaction_weighted_gas_source_difference_percentage_points": -0.025633932781821134,
+    "note": "Raw numerical differences; endpoint cell-centre interpolation included. No low-CO2 masking and no automatic declaration of convergence."
+  },
+  {
+    "delta_CO2_um": 30,
+    "chi": 0.05,
+    "comparison": "domain",
+    "status": "compared",
+    "differences": {
+      "catalyst_CO2_mM": {
+        "max_absolute": 0.008444705287896426,
+        "max_difference_over_base_peak": 0.00025833376556863233
+      },
+      "catalyst_OH_mM": {
+        "max_absolute": 0.04723228374792399,
+        "max_difference_over_base_peak": 0.0009755744120776498
+      },
+      "catalyst_DIC_mM": {
+        "max_absolute": 0.10310379151189863,
+        "max_difference_over_base_peak": 0.00038030185008156513
+      },
+      "catalyst_Cs_mM": {
+        "max_absolute": 0.07978052452358497,
+        "max_difference_over_base_peak": 6.390876209042321e-05
+      },
+      "catalyst_gas_fraction_CO2": {
+        "max_absolute": 2.631813220266288e-05,
+        "max_difference_over_base_peak": 2.6320174693962965e-05
+      },
+      "catalyst_gas_fraction_DIC": {
+        "max_absolute": 5.6287434339274967e-05,
+        "max_difference_over_base_peak": 6.511177805173162e-05
+      },
+      "liquid_CO2_mM": {
+        "max_absolute": 0.2670391208313472,
+        "max_difference_over_base_peak": 0.008092094570646883
+      },
+      "liquid_OH_mM": {
+        "max_absolute": 0.28505504103623736,
+        "max_difference_over_base_peak": 0.007908187096793145
+      },
+      "liquid_DIC_mM": {
+        "max_absolute": 0.39567420791479435,
+        "max_difference_over_base_peak": 0.0015968956002736633
+      },
+      "liquid_Cs_mM": {
+        "max_absolute": 0.27341179752397693,
+        "max_difference_over_base_peak": 0.00022030591023529692
+      },
+      "liquid_gas_fraction_CO2": {
+        "max_absolute": 0.0011972207733039752,
+        "max_difference_over_base_peak": 0.0012298620373364228
+      },
+      "liquid_gas_fraction_DIC": {
+        "max_absolute": 0.0010002698557179807,
+        "max_difference_over_base_peak": 0.001178168891163666
+      }
+    },
+    "reaction_weighted_gas_source_difference_percentage_points": 0.000271869586998541,
+    "note": "Raw numerical differences; endpoint cell-centre interpolation included. No low-CO2 masking and no automatic declaration of convergence."
+  },
+  {
+    "delta_CO2_um": 50,
+    "chi": 0.05,
+    "comparison": "fine",
+    "status": "compared",
+    "differences": {
+      "catalyst_CO2_mM": {
+        "max_absolute": 0.01108004608926727,
+        "max_difference_over_base_peak": 0.00033919020714405566
+      },
+      "catalyst_OH_mM": {
+        "max_absolute": 0.11150513987448818,
+        "max_difference_over_base_peak": 0.0017331378579922313
+      },
+      "catalyst_DIC_mM": {
+        "max_absolute": 1.6273119647294152,
+        "max_difference_over_base_peak": 0.003866344449995842
+      },
+      "catalyst_Cs_mM": {
+        "max_absolute": 2.2508955854250416,
+        "max_difference_over_base_peak": 0.0015773708404721858
+      },
+      "catalyst_gas_fraction_CO2": {
+        "max_absolute": 0.0009087603337367689,
+        "max_difference_over_base_peak": 0.0009087722748891421
+      },
+      "catalyst_gas_fraction_DIC": {
+        "max_absolute": 0.00034382242854524847,
+        "max_difference_over_base_peak": 0.00037082503472351326
+      },
+      "liquid_CO2_mM": {
+        "max_absolute": 0.24677334228864822,
+        "max_difference_over_base_peak": 0.007477980069352975
+      },
+      "liquid_OH_mM": {
+        "max_absolute": 0.10455281831679031,
+        "max_difference_over_base_peak": 0.0020045453053113083
+      },
+      "liquid_DIC_mM": {
+        "max_absolute": 1.877928136771203,
+        "max_difference_over_base_peak": 0.004738025346733192
+      },
+      "liquid_Cs_mM": {
+        "max_absolute": 2.2607275918442156,
+        "max_difference_over_base_peak": 0.0015932002770366852
+      },
+      "liquid_gas_fraction_CO2": {
+        "max_absolute": 0.024888540778536083,
+        "max_difference_over_base_peak": 0.025023902077009892
+      },
+      "liquid_gas_fraction_DIC": {
+        "max_absolute": 0.013032404249380347,
+        "max_difference_over_base_peak": 0.014139347958168184
+      }
+    },
+    "reaction_weighted_gas_source_difference_percentage_points": -0.015622958191385816,
+    "note": "Raw numerical differences; endpoint cell-centre interpolation included. No low-CO2 masking and no automatic declaration of convergence."
+  },
+  {
+    "delta_CO2_um": 50,
+    "chi": 0.05,
+    "comparison": "domain",
+    "status": "compared",
+    "differences": {
+      "catalyst_CO2_mM": {
+        "max_absolute": 0.010778111124752243,
+        "max_difference_over_base_peak": 0.00032994716046963
+      },
+      "catalyst_OH_mM": {
+        "max_absolute": 0.08836953834644845,
+        "max_difference_over_base_peak": 0.001373538408847532
+      },
+      "catalyst_DIC_mM": {
+        "max_absolute": 0.16477511134047518,
+        "max_difference_over_base_peak": 0.0003914905998584141
+      },
+      "catalyst_Cs_mM": {
+        "max_absolute": 0.1426055911504136,
+        "max_difference_over_base_peak": 9.993440061169454e-05
+      },
+      "catalyst_gas_fraction_CO2": {
+        "max_absolute": 8.007472337867583e-06,
+        "max_difference_over_base_peak": 8.00757755642055e-06
+      },
+      "catalyst_gas_fraction_DIC": {
+        "max_absolute": 2.5972109322314196e-05,
+        "max_difference_over_base_peak": 2.8011867585370597e-05
+      },
+      "liquid_CO2_mM": {
+        "max_absolute": 0.28927635283922903,
+        "max_difference_over_base_peak": 0.008765950086037241
+      },
+      "liquid_OH_mM": {
+        "max_absolute": 0.23420129575404047,
+        "max_difference_over_base_peak": 0.00449023867036394
+      },
+      "liquid_DIC_mM": {
+        "max_absolute": 0.4684722196785742,
+        "max_difference_over_base_peak": 0.0011819585678575267
+      },
+      "liquid_Cs_mM": {
+        "max_absolute": 0.3511674023463911,
+        "max_difference_over_base_peak": 0.0002474778494865544
+      },
+      "liquid_gas_fraction_CO2": {
+        "max_absolute": 0.0008721803573514819,
+        "max_difference_over_base_peak": 0.000876923884371606
+      },
+      "liquid_gas_fraction_DIC": {
+        "max_absolute": 0.0011718777040976014,
+        "max_difference_over_base_peak": 0.0012714144148377746
+      }
+    },
+    "reaction_weighted_gas_source_difference_percentage_points": 6.218000523361411e-05,
+    "note": "Raw numerical differences; endpoint cell-centre interpolation included. No low-CO2 masking and no automatic declaration of convergence."
+  }
+]

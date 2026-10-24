@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "summary": {
+    "chi": 0.0005,
+    "flow_mL_min": 10.0,
+    "n_catalyst": 48,
+    "n_external": 96,
+    "n_axial": 24,
+    "outer_domain_um": 500.0,
+    "carbon_flux_mmol_m2_s": 5.333830467895441,
+    "CL_CO2_min_mM": 3.053453423828273e-05,
+    "CL_DIC_max_mM": 361.38780460985345,
+    "CL_OH_mean_mM": 704.7459520238859,
+    "CL_HCO3_mean_mM": 0.07542775645800083,
+    "CL_CO3_mean_mM": 215.7531361951507,
+    "CL_pOH_min": -0.0810806612133956,
+    "CL_pOH_max": 1.303989676610842,
+    "max_CO2_mM": 33.00000000000001,
+    "max_ionic_strength_M": 2.6723906980596497,
+    "max_steady_scaled": 1.2131573734573768e-06,
+    "max_carbon_balance_mol_m2_s": 2.975647072495091e-15,
+    "max_alkalinity_balance_mol_m2_s": 1.527250548249981e-14,
+    "max_ionic_drift_step": 0.3687400057818742,
+    "gas_source_fraction": 0.8575245895779867,
+    "isotope_source_closure_abs_mM": 1.192326237742236e-10,
+    "CL_gas_source_min": 0.00019468403375975073,
+    "CL_gas_source_max": 0.9999999999971836
+  },
+  "elapsed_s": 189.81299999996554
+}

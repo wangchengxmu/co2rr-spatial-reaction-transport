@@ -1,0 +1,546 @@
+{
+  "screen_cases_checked": 30,
+  "pointwise_tracer_audit": [
+    {
+      "case": "d10_chi0p5",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 3.081542361849734e-13,
+      "absolute_closure_at_worst_point_mM": 9.414691248821327e-12,
+      "CO2_at_worst_point_mM": 30.55188001105408,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 5.0674527895286055
+    },
+    {
+      "case": "d10_chi0p5",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.2050335222711827e-11,
+      "absolute_closure_at_worst_point_mM": 6.291962506566051e-10,
+      "CO2_at_worst_point_mM": 28.53454354782477,
+      "z_at_worst_point_nm": 8346.406669695729,
+      "x_at_worst_point_mm": 4.646751853710381
+    },
+    {
+      "case": "d30_chi0p5",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 3.0791322745596024e-12,
+      "absolute_closure_at_worst_point_mM": 9.192291372528416e-11,
+      "CO2_at_worst_point_mM": 29.853512460237383,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d30_chi0p5",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 7.022932081110358e-10,
+      "absolute_closure_at_worst_point_mM": 1.3303417034649101e-08,
+      "CO2_at_worst_point_mM": 18.94282456530004,
+      "z_at_worst_point_nm": 29506.793154262163,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d50_chi0p5",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 3.688932536735156e-12,
+      "absolute_closure_at_worst_point_mM": 1.1036149771825876e-10,
+      "CO2_at_worst_point_mM": 29.91691949344588,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.7349998147354834
+    },
+    {
+      "case": "d50_chi0p5",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 7.422022217843906e-09,
+      "absolute_closure_at_worst_point_mM": 1.5687374244066632e-07,
+      "CO2_at_worst_point_mM": 21.1362534139972,
+      "z_at_worst_point_nm": 64603.92605899408,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p25",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 2.8780533475774223e-13,
+      "absolute_closure_at_worst_point_mM": 8.15703060652595e-12,
+      "CO2_at_worst_point_mM": 28.34218001341797,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 5.0674527895286055
+    },
+    {
+      "case": "d10_chi0p25",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.0683719051491336e-11,
+      "absolute_closure_at_worst_point_mM": 2.970175216887583e-10,
+      "CO2_at_worst_point_mM": 27.80094836425877,
+      "z_at_worst_point_nm": 8346.406669695729,
+      "x_at_worst_point_mm": 4.646751853710381
+    },
+    {
+      "case": "d30_chi0p25",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 5.5215400667181e-12,
+      "absolute_closure_at_worst_point_mM": 1.483080325215269e-10,
+      "CO2_at_worst_point_mM": 26.859903347523552,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d30_chi0p25",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 8.480028062937675e-10,
+      "absolute_closure_at_worst_point_mM": 1.5642861228570837e-08,
+      "CO2_at_worst_point_mM": 18.446709270855635,
+      "z_at_worst_point_nm": 24776.78489279788,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d50_chi0p25",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 8.593410299259414e-12,
+      "absolute_closure_at_worst_point_mM": 2.2918911213309912e-10,
+      "CO2_at_worst_point_mM": 26.670332749368523,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 2.68253661465418
+    },
+    {
+      "case": "d50_chi0p25",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.0096459747411057e-08,
+      "absolute_closure_at_worst_point_mM": 2.0716492343808568e-07,
+      "CO2_at_worst_point_mM": 20.51857072883464,
+      "z_at_worst_point_nm": 64603.92605899408,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p1",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 4.1220378244303624e-13,
+      "absolute_closure_at_worst_point_mM": 9.393374966748524e-12,
+      "CO2_at_worst_point_mM": 22.788182367168417,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d10_chi0p1",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 8.838668435960794e-12,
+      "absolute_closure_at_worst_point_mM": 2.2881252448314626e-10,
+      "CO2_at_worst_point_mM": 25.887669182408192,
+      "z_at_worst_point_nm": 8963.281366826704,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d30_chi0p1",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 3.5833050944035775e-12,
+      "absolute_closure_at_worst_point_mM": 6.823697162872122e-11,
+      "CO2_at_worst_point_mM": 19.04302587443476,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 4.646751853710381
+    },
+    {
+      "case": "d30_chi0p1",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 3.7247074534261843e-10,
+      "absolute_closure_at_worst_point_mM": 4.806302911219973e-09,
+      "CO2_at_worst_point_mM": 12.903840023191297,
+      "z_at_worst_point_nm": 20730.994428228903,
+      "x_at_worst_point_mm": 4.646751853710381
+    },
+    {
+      "case": "d50_chi0p1",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 9.461925067101997e-12,
+      "absolute_closure_at_worst_point_mM": 1.8250290167998173e-10,
+      "CO2_at_worst_point_mM": 19.288136440069994,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.7349998147354834
+    },
+    {
+      "case": "d50_chi0p1",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.8272574925317904e-09,
+      "absolute_closure_at_worst_point_mM": 7.465928675287614e-08,
+      "CO2_at_worst_point_mM": 26.40696397483741,
+      "z_at_worst_point_nm": 76069.43854985897,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p05",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 1.4758921516255698e-12,
+      "absolute_closure_at_worst_point_mM": 2.248512487312837e-11,
+      "CO2_at_worst_point_mM": 15.234937626277718,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 8.703560202960691
+    },
+    {
+      "case": "d10_chi0p05",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.5963306567980322e-11,
+      "absolute_closure_at_worst_point_mM": 6.061995350137295e-10,
+      "CO2_at_worst_point_mM": 23.348317881873147,
+      "z_at_worst_point_nm": 10297.73489609171,
+      "x_at_worst_point_mm": 7.753292687705544
+    },
+    {
+      "case": "d30_chi0p05",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 2.1099517520685942e-12,
+      "absolute_closure_at_worst_point_mM": 2.9775293342027e-11,
+      "CO2_at_worst_point_mM": 14.111836117975368,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.476409330422773
+    },
+    {
+      "case": "d30_chi0p05",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.2974416200782974e-10,
+      "absolute_closure_at_worst_point_mM": 9.654221866384205e-11,
+      "CO2_at_worst_point_mM": 0.420216199707185,
+      "z_at_worst_point_nm": 15246.218175623875,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d50_chi0p05",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 2.981547396317864e-12,
+      "absolute_closure_at_worst_point_mM": 3.61755070343861e-11,
+      "CO2_at_worst_point_mM": 12.133131634620982,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.2486587108887178
+    },
+    {
+      "case": "d50_chi0p05",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.6729316535256513e-07,
+      "absolute_closure_at_worst_point_mM": 1.0438530009988789e-10,
+      "CO2_at_worst_point_mM": 0.0006239663161367,
+      "z_at_worst_point_nm": 23357.371086997693,
+      "x_at_worst_point_mm": 7.753292687705544
+    },
+    {
+      "case": "d10_chi0p02",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 5.470936335981326e-13,
+      "absolute_closure_at_worst_point_mM": 5.0395243533785106e-12,
+      "CO2_at_worst_point_mM": 9.21144762777534,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 4.646751853710381
+    },
+    {
+      "case": "d10_chi0p02",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.423935347256142e-11,
+      "absolute_closure_at_worst_point_mM": 5.146851833615074e-10,
+      "CO2_at_worst_point_mM": 21.23345343942953,
+      "z_at_worst_point_nm": 11018.93448348276,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d30_chi0p02",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 2.204897004752282e-12,
+      "absolute_closure_at_worst_point_mM": 9.513279053408041e-12,
+      "CO2_at_worst_point_mM": 4.314613804138596,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.7349998147354834
+    },
+    {
+      "case": "d30_chi0p02",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.3313239108734518e-08,
+      "absolute_closure_at_worst_point_mM": 1.4869850142873453e-10,
+      "CO2_at_worst_point_mM": 0.0111692203688565,
+      "z_at_worst_point_nm": 14310.48292377294,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d50_chi0p02",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 1.0506333667714996e-12,
+      "absolute_closure_at_worst_point_mM": 3.869793374633446e-12,
+      "CO2_at_worst_point_mM": 3.68329571192372,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.2486587108887178
+    },
+    {
+      "case": "d50_chi0p02",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 7.925311343082751e-07,
+      "absolute_closure_at_worst_point_mM": 5.368880481739574e-14,
+      "CO2_at_worst_point_mM": 6.774346456969868e-08,
+      "z_at_worst_point_nm": 24776.78489279788,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p01",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 5.6345939726644515e-12,
+      "absolute_closure_at_worst_point_mM": 1.5710988066075515e-11,
+      "CO2_at_worst_point_mM": 2.7883088191084338,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 8.703560202960691
+    },
+    {
+      "case": "d10_chi0p01",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 4.1014754844864455e-11,
+      "absolute_closure_at_worst_point_mM": 8.53670911737936e-10,
+      "CO2_at_worst_point_mM": 20.81375141621323,
+      "z_at_worst_point_nm": 11778.691944834947,
+      "x_at_worst_point_mm": 8.703560202960691
+    },
+    {
+      "case": "d30_chi0p01",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 2.168273667213516e-11,
+      "absolute_closure_at_worst_point_mM": 3.942135506918021e-11,
+      "CO2_at_worst_point_mM": 1.8180986867696105,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.476409330422773
+    },
+    {
+      "case": "d30_chi0p01",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.7514429511223293e-08,
+      "absolute_closure_at_worst_point_mM": 5.257353092365941e-12,
+      "CO2_at_worst_point_mM": 0.0003001726712821,
+      "z_at_worst_point_nm": 18364.43180276489,
+      "x_at_worst_point_mm": 7.753292687705544
+    },
+    {
+      "case": "d50_chi0p01",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 3.2645421551614788e-12,
+      "absolute_closure_at_worst_point_mM": 3.673061854669868e-12,
+      "CO2_at_worst_point_mM": 1.125138435986342,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.2486587108887178
+    },
+    {
+      "case": "d50_chi0p01",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.9333495848668667e-06,
+      "absolute_closure_at_worst_point_mM": 4.362681936333571e-14,
+      "CO2_at_worst_point_mM": 2.2565406538383443e-08,
+      "z_at_worst_point_nm": 19516.90546192207,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p005",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 7.606573630074484e-12,
+      "absolute_closure_at_worst_point_mM": 1.0301537400891903e-11,
+      "CO2_at_worst_point_mM": 1.3542940490528097,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p005",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 3.226450841282156e-11,
+      "absolute_closure_at_worst_point_mM": 7.27801818811713e-10,
+      "CO2_at_worst_point_mM": 22.557350308876625,
+      "z_at_worst_point_nm": 11018.93448348276,
+      "x_at_worst_point_mm": 6.377573714586258
+    },
+    {
+      "case": "d30_chi0p005",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 9.56017912494703e-12,
+      "absolute_closure_at_worst_point_mM": 1.8998969064654148e-12,
+      "CO2_at_worst_point_mM": 0.1987302624390881,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 1.0174010855145668
+    },
+    {
+      "case": "d30_chi0p005",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.17479549994338e-07,
+      "absolute_closure_at_worst_point_mM": 3.831833866693886e-13,
+      "CO2_at_worst_point_mM": 1.7619283591462492e-06,
+      "z_at_worst_point_nm": 15246.218175623875,
+      "x_at_worst_point_mm": 8.703560202960691
+    },
+    {
+      "case": "d50_chi0p005",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 5.161472072470967e-13,
+      "absolute_closure_at_worst_point_mM": 9.400813461013513e-14,
+      "CO2_at_worst_point_mM": 0.1821343471207243,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.2486587108887178
+    },
+    {
+      "case": "d50_chi0p005",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 3.4117091223624273e-06,
+      "absolute_closure_at_worst_point_mM": 4.175421112115122e-14,
+      "CO2_at_worst_point_mM": 1.2238502645922712e-08,
+      "z_at_worst_point_nm": 15246.218175623875,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d10_chi0p002",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 5.383762807361024e-12,
+      "absolute_closure_at_worst_point_mM": 1.1751932760262207e-11,
+      "CO2_at_worst_point_mM": 2.182847421174316,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 5.496386612031039
+    },
+    {
+      "case": "d10_chi0p002",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.2607253640016063e-11,
+      "absolute_closure_at_worst_point_mM": 2.666169507392624e-10,
+      "CO2_at_worst_point_mM": 21.147900911028447,
+      "z_at_worst_point_nm": 8963.281366826704,
+      "x_at_worst_point_mm": 4.646751853710381
+    },
+    {
+      "case": "d30_chi0p002",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 4.873587064659596e-10,
+      "absolute_closure_at_worst_point_mM": 2.690454196235814e-13,
+      "CO2_at_worst_point_mM": 0.0005520480419331,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 3.054980931285428
+    },
+    {
+      "case": "d30_chi0p002",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 9.140547109429716e-07,
+      "absolute_closure_at_worst_point_mM": 3.206357823969412e-13,
+      "CO2_at_worst_point_mM": 3.507840160532205e-07,
+      "z_at_worst_point_nm": 9613.136361281246,
+      "x_at_worst_point_mm": 6.82921920360376
+    },
+    {
+      "case": "d50_chi0p002",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 1.5196720093426807e-10,
+      "absolute_closure_at_worst_point_mM": 1.0459948879271153e-13,
+      "CO2_at_worst_point_mM": 0.0006883030558545,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 0.476409330422773
+    },
+    {
+      "case": "d50_chi0p002",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 0.012990641346418641,
+      "absolute_closure_at_worst_point_mM": 2.068138461952645e-10,
+      "CO2_at_worst_point_mM": 1.5920218307949862e-08,
+      "z_at_worst_point_nm": 22009.992873352578,
+      "x_at_worst_point_mm": 3.831677038202992
+    },
+    {
+      "case": "d10_chi0p001",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 9.947772896822086e-12,
+      "absolute_closure_at_worst_point_mM": 1.4999937056336954e-14,
+      "CO2_at_worst_point_mM": 0.0015078688679281,
+      "z_at_worst_point_nm": 122.91666666666669,
+      "x_at_worst_point_mm": 7.287872697317793
+    },
+    {
+      "case": "d10_chi0p001",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.6179139827522672e-11,
+      "absolute_closure_at_worst_point_mM": 5.430038640952262e-10,
+      "CO2_at_worst_point_mM": 20.741852775634552,
+      "z_at_worst_point_nm": 11778.691944834947,
+      "x_at_worst_point_mm": 8.22525694958229
+    },
+    {
+      "case": "d30_chi0p001",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 5.127706946614887e-07,
+      "absolute_closure_at_worst_point_mM": 1.247399755264315e-13,
+      "CO2_at_worst_point_mM": 2.4326658450865644e-07,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 3.831677038202992
+    },
+    {
+      "case": "d30_chi0p001",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 4.453198150591297e-06,
+      "absolute_closure_at_worst_point_mM": 9.114891143207292e-14,
+      "CO2_at_worst_point_mM": 2.046819125261025e-08,
+      "z_at_worst_point_nm": 4028.61496000012,
+      "x_at_worst_point_mm": 6.377573714586258
+    },
+    {
+      "case": "d50_chi0p001",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 8.970654927582593e-07,
+      "absolute_closure_at_worst_point_mM": 2.340186357920488e-14,
+      "CO2_at_worst_point_mM": 2.608712938812284e-08,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 8.703560202960691
+    },
+    {
+      "case": "d50_chi0p001",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 0.015883057405795285,
+      "absolute_closure_at_worst_point_mM": 2.2610001718017268e-10,
+      "CO2_at_worst_point_mM": 1.4235295598546102e-08,
+      "z_at_worst_point_nm": 19516.90546192207,
+      "x_at_worst_point_mm": 3.438251664408496
+    },
+    {
+      "case": "d10_chi0p0005",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 8.242485962338865e-09,
+      "absolute_closure_at_worst_point_mM": 2.7629703978568083e-14,
+      "CO2_at_worst_point_mM": 3.3521081024356337e-06,
+      "z_at_worst_point_nm": 106.25,
+      "x_at_worst_point_mm": 2.3217102597456507
+    },
+    {
+      "case": "d10_chi0p0005",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 7.950055581251771e-12,
+      "absolute_closure_at_worst_point_mM": 1.7152856912616699e-10,
+      "CO2_at_worst_point_mM": 21.575769800990383,
+      "z_at_worst_point_nm": 9613.136361281246,
+      "x_at_worst_point_mm": 5.0674527895286055
+    },
+    {
+      "case": "d30_chi0p0005",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 4.4241110961285084e-07,
+      "absolute_closure_at_worst_point_mM": 1.6234041614113367e-14,
+      "CO2_at_worst_point_mM": 3.6694470960097726e-08,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 4.234678538412059
+    },
+    {
+      "case": "d30_chi0p0005",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 2.0499637258086843e-06,
+      "absolute_closure_at_worst_point_mM": 4.029015565531279e-14,
+      "CO2_at_worst_point_mM": 1.965408223963516e-08,
+      "z_at_worst_point_nm": 3662.175770295464,
+      "x_at_worst_point_mm": 5.933199825080028
+    },
+    {
+      "case": "d50_chi0p0005",
+      "region": "catalyst",
+      "max_pointwise_relative_CO2_tracer_closure": 2.152316637042701e-06,
+      "absolute_closure_at_worst_point_mM": 5.4799112005166685e-15,
+      "CO2_at_worst_point_mM": 2.546052521364193e-09,
+      "z_at_worst_point_nm": 197.91666666666663,
+      "x_at_worst_point_mm": 7.287872697317793
+    },
+    {
+      "case": "d50_chi0p0005",
+      "region": "liquid",
+      "max_pointwise_relative_CO2_tracer_closure": 1.6703529124574423e-05,
+      "absolute_closure_at_worst_point_mM": 6.557068406585032e-14,
+      "CO2_at_worst_point_mM": 3.92555869941173e-09,
+      "z_at_worst_point_nm": 2090.761064219266,
+      "x_at_worst_point_mm": 8.703560202960691
+    }
+  ],
+  "note": "No concentrations or isotope data removed or modified. Existing absolute acceptance alone does not guarantee relative accuracy at tiny concentrations."
+}

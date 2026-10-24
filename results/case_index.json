@@ -1,0 +1,254 @@
+[
+  {
+    "id": "d10_chi0p0005",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.0005
+  },
+  {
+    "id": "d10_chi0p001",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.001
+  },
+  {
+    "id": "d10_chi0p002",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.002
+  },
+  {
+    "id": "d10_chi0p005",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.005
+  },
+  {
+    "id": "d10_chi0p01",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.01
+  },
+  {
+    "id": "d10_chi0p02",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.02
+  },
+  {
+    "id": "d10_chi0p05",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d10_chi0p05_domain",
+    "kind": "domain",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d10_chi0p05_fine",
+    "kind": "refinement",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d10_chi0p1",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.1
+  },
+  {
+    "id": "d10_chi0p25",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.25
+  },
+  {
+    "id": "d10_chi0p5",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 10.0,
+    "chi": 0.5
+  },
+  {
+    "id": "d30_chi0p0005",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.0005
+  },
+  {
+    "id": "d30_chi0p001",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.001
+  },
+  {
+    "id": "d30_chi0p002",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.002
+  },
+  {
+    "id": "d30_chi0p005",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.005
+  },
+  {
+    "id": "d30_chi0p01",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.01
+  },
+  {
+    "id": "d30_chi0p02",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.02
+  },
+  {
+    "id": "d30_chi0p05",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d30_chi0p05_domain",
+    "kind": "domain",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d30_chi0p05_fine",
+    "kind": "refinement",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d30_chi0p1",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.1
+  },
+  {
+    "id": "d30_chi0p25",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.25
+  },
+  {
+    "id": "d30_chi0p5",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 30.0,
+    "chi": 0.5
+  },
+  {
+    "id": "d50_chi0p0005",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.0005
+  },
+  {
+    "id": "d50_chi0p001",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.001
+  },
+  {
+    "id": "d50_chi0p002",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.002
+  },
+  {
+    "id": "d50_chi0p005",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.005
+  },
+  {
+    "id": "d50_chi0p01",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.01
+  },
+  {
+    "id": "d50_chi0p02",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.02
+  },
+  {
+    "id": "d50_chi0p05",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d50_chi0p05_domain",
+    "kind": "domain",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d50_chi0p05_fine",
+    "kind": "refinement",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.05
+  },
+  {
+    "id": "d50_chi0p1",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.1
+  },
+  {
+    "id": "d50_chi0p25",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.25
+  },
+  {
+    "id": "d50_chi0p5",
+    "kind": "screen",
+    "status": "passed_recorded_acceptance",
+    "delta_CO2_um": 50.0,
+    "chi": 0.5
+  }
+]

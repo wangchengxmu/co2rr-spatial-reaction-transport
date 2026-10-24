@@ -1,0 +1,28 @@
+column,definition,unit_or_type,used_in_main_figure
+delta_CO2_um,Passive CO2 transfer-equivalent length D_CO2 divided by k_CO2,um,scenario selector
+chi,Assumed effective diffusivity ratio Deff divided by Daq in porous Cu,dimensionless,curve identity
+z_nm,Cell-centre depth measured from the gas-contacted Cu boundary,nm,x coordinate in Cu
+liquid_y_um,Cell-centre distance measured outward from the Cu/liquid boundary,um,x coordinate in liquid
+region,Calculation region,catalyst or liquid,all quantitative panels
+CO2_mM,Molecular dissolved CO2 concentration,mM,panel b
+HCO3_mM,Bicarbonate concentration,mM,contributes to panel c
+CO3_mM,Carbonate concentration,mM,contributes to panel c
+H_mM,Free proton concentration,mM,no
+OH_mM,Free hydroxide concentration,mM,panel d
+Cs_mM,Free caesium-ion concentration,mM,panel e
+HSO4_mM,Bisulfate concentration,mM,no
+SO4_mM,Sulfate concentration,mM,no
+HCOOH_mM,Formic-acid concentration,mM,no
+HCOO_mM,Formate concentration,mM,no
+CH3COOH_mM,Acetic-acid concentration,mM,no
+CH3COO_mM,Acetate concentration,mM,no
+DIC_mM,Total dissolved inorganic carbon CO2 plus bicarbonate plus carbonate,mM,panel c
+pOH,Negative base-10 logarithm of free OH in molar units,dimensionless,no
+pH,Model-reported proton-based pH,dimensionless,no
+gas_fraction_CO2,Fraction of molecular CO2 carbon originating from the gas-side supply,dimensionless,no
+gas_fraction_DIC,Fraction of total DIC carbon originating from the gas-side supply,dimensionless,no
+f13_CO2_13gas,13C fraction of molecular CO2 for 13CO2 gas plus 12CO2 liquid,dimensionless,panel f multiplied by 100
+f13_CO2_13liquid,13C fraction of molecular CO2 for 12CO2 gas plus 13CO2 liquid,dimensionless,panel g multiplied by 100
+carbon_current_mA_cm2_per_nm,Local carbon-product current allocation per Cu depth,mA cm-2 nm-1,no
+total_current_mA_cm2_per_nm,Local total-current allocation per Cu depth,mA cm-2 nm-1,no
+noncarbon_current_mA_cm2_per_nm,Local non-carbon current allocation per Cu depth,mA cm-2 nm-1,no

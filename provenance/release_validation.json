@@ -1,0 +1,34 @@
+{
+  "release_preparation_date": "2026-10-24",
+  "python": "3.10.18",
+  "package_versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.1",
+    "matplotlib": "3.10.1"
+  },
+  "archived_cases_rechecked": 36,
+  "raw_station_states_rechecked": 936,
+  "raw_state_acceptance": "passed",
+  "production_figure_CSV_mapping": "passed",
+  "integrated_current_check": "passed",
+  "contract_tests": "passed",
+  "Jacobian_max_scaled_difference": 0.0,
+  "portable_runner_unit_tests": 3,
+  "smoke_test": {
+    "delta_CO2_um": 10.0,
+    "chi": 0.25,
+    "n_catalyst": 6,
+    "n_external": 48,
+    "n_axial": 4,
+    "status": "passed"
+  },
+  "plot_redraws": "compact sensitivity figures and existing Figure4 composite/panels reproduced",
+  "model_postprocess": {
+    "transport_cases": 30,
+    "pairing_null_predictions": 60,
+    "pair_identity": "passed"
+  },
+  "full_nonlinear_campaign_rerun": false,
+  "experimental_validation_of_concentrations": false
+}
