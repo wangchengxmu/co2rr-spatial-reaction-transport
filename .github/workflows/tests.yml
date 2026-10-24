@@ -1,4 +1,4 @@
-name: Verify archived spatial calculations
+name: Verify transport and isotope analyses
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -15,4 +15,7 @@ jobs:
       - run: python validate_release.py
       - run: python model/test_species_transfer.py
       - run: python -m unittest test_release_tools.py
+      - run: python -m unittest isotope_analysis.test_analysis isotope_analysis.test_nmr
+      - run: python -m isotope_analysis.acetate_carbonyl --out runs/acetate_carbonyl
+      - run: python -m isotope_analysis.validate_analyses --acetate runs/acetate_carbonyl
       - run: python postprocess.py --out derived

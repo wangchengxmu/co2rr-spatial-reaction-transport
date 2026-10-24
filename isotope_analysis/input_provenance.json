@@ -1,0 +1,71 @@
+{
+  "data_archive": "https://doi.org/10.6084/m9.figshare.30215389",
+  "nmrglue_export_version": "0.11",
+  "safety_scope": "Numeric arrays and allowlisted acquisition fields only; vendor operator, host, audit and path metadata excluded",
+  "NMR_processing": "Not processed during FID export; reproducible processing code is supplied separately",
+  "GCMS_export": "Masses rounded to nearest integer, maximum if duplicate nominal mass; absent control m30 entries substituted with zero and flagged",
+  "GCMS_scope": "Ethylene mass-spectrum peak intensities, not retention-time-integrated isotope areas",
+  "files": [
+    {
+      "id": "12gas_12liquid_1H_FID",
+      "input": "inputs/nmr/12gas_12liquid_fid.npz",
+      "raw_numeric_bytes_sha256": "59b8d97f54ad2b30897ab818d1e1ebbae857764b94c5e0ce9bbdfe10576fc0dc",
+      "export_sha256": "7e43d6e13967941f574b15d397ccb6e6d3e8119221fe771fbc5e141c2720170e",
+      "transformation": "Bruker int32 real/imaginary pairs read as complex numeric array; no spectral processing",
+      "complex_points": 16384,
+      "scans": 22
+    },
+    {
+      "id": "13gas_12liquid_1H_FID",
+      "input": "inputs/nmr/13gas_12liquid_fid.npz",
+      "raw_numeric_bytes_sha256": "abb9334e9d188251e37320b8967ab2713bd2beb92bacb0181f1a0dc59ac88833",
+      "export_sha256": "b913c00bc212afe91131e024d2738057bbf329d01b8d64478abd25ca4720123c",
+      "transformation": "Bruker int32 real/imaginary pairs read as complex numeric array; no spectral processing",
+      "complex_points": 16384,
+      "scans": 256
+    },
+    {
+      "id": "12gas_13liquid_1H_FID",
+      "input": "inputs/nmr/12gas_13liquid_fid.npz",
+      "raw_numeric_bytes_sha256": "bb292a29871686d23792f55cb9989bcc417df8d5c401ac58dc6aa35c8b928d07",
+      "export_sha256": "3b0ae460f48c507f76b1c5073e7c7a5d65e043955970b3d0e676c1c4d0c596bc",
+      "transformation": "Bruker int32 real/imaginary pairs read as complex numeric array; no spectral processing",
+      "complex_points": 16384,
+      "scans": 256
+    },
+    {
+      "id": "13gas_12liquid_13C_processed",
+      "input": "inputs/nmr/13gas_12liquid_13C_processed.csv",
+      "raw_numeric_bytes_sha256": "c66246dd7332b7a19ae6e0d9f88ef3c18f0bf835427828eb397de84fc35e0ff5",
+      "export_sha256": "21eec9c38c6a507e8164ed6a5fe3595f02c9142f9eccb4dd76eb3ee930936f59",
+      "transformation": "Existing processed real spectrum read/scaled by nmrglue; ppm from OFFSET, SW_p, SF and point count; no new phase/baseline correction",
+      "role": "qualitative spectral support, not quantitative carbon isotope percentages"
+    },
+    {
+      "id": "12gas_13liquid_13C_processed",
+      "input": "inputs/nmr/12gas_13liquid_13C_processed.csv",
+      "raw_numeric_bytes_sha256": "e308bf939785ce92863cc888190e1539b44eb539ca02f4dca9638ecfae860f04",
+      "export_sha256": "2f58da043f676c4864d6a1cd52a22137b1f677cad0ddd93568ff9ba8cae1f9f8",
+      "transformation": "Existing processed real spectrum read/scaled by nmrglue; ppm from OFFSET, SW_p, SF and point count; no new phase/baseline correction",
+      "role": "qualitative spectral support, not quantitative carbon isotope percentages"
+    },
+    {
+      "id": "template_fit_summary.csv",
+      "input": "reference_outputs/nmr/template_fit_summary.csv",
+      "source_sha256": "036563393b22bb119821c47b3a9cfe596f6009506b0ea065b85763ce59a0e8b8",
+      "role": "frozen numerical reference output, not a new measurement"
+    },
+    {
+      "id": "acetate_carbonyl_grid.csv",
+      "input": "reference_outputs/nmr/acetate_carbonyl_grid.csv",
+      "source_sha256": "14af6c156b43be1d0d84562338a6bef248f0a1e2b2fb2ad8a899bd3ec8e8a344",
+      "role": "frozen numerical reference output, not a new measurement"
+    },
+    {
+      "id": "acetate_carbonyl_summary.json",
+      "input": "reference_outputs/nmr/acetate_carbonyl_summary.json",
+      "source_sha256": "68826d6ef3c8a2a1e305cf9a00c34cc6ac43396616309c29aaa9b6af59340716",
+      "role": "frozen numerical reference output, not a new measurement"
+    }
+  ]
+}

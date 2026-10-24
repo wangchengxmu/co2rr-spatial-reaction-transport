@@ -1,0 +1,6 @@
+product,reporter,gas_source_low,gas_source_high,liquid_source_low,liquid_source_high,feed_midpoint_difference,interpretation
+formate,carbon,0.9387317471663433,0.9905034208107832,0.009496579189216758,0.06126825283365667,0.030327785152660214,"span of the two independent feed estimates, not a pooled statistical interval"
+acetate,methyl carbon,0.9693658735831716,0.9915245583580109,0.008475441641989101,0.03063412641682839,0.017563565812314996,"span of the two independent feed estimates, not a pooled statistical interval"
+ethanol,methyl carbon,0.9792709077912795,1.0,0.0,0.020729092208720545,0.011028285510058189,"span of the two independent feed estimates, not a pooled statistical interval"
+n-propanol,terminal methyl carbon,0.98335545798019,1.0,0.0,0.016644542019810027,0.008322271009905013,"span of the two independent feed estimates, not a pooled statistical interval"
+ethylene,mean of both carbons,0.7909145146916631,0.9234121394765449,0.07658786052345512,0.20908548530833693,0.10239895049940761,"span of the two independent feed estimates, not a pooled statistical interval"

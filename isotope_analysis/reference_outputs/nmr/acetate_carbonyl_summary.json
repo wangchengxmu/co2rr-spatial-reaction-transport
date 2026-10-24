@@ -1,0 +1,25 @@
+{
+  "condition": "12gas_13liquid",
+  "isotopomer": "12CH3-13COO",
+  "spectral_signature": "central acetate methyl doublet from two-bond 2J(H,Ccarbonyl)",
+  "j2_hz_measured_from_13gas_12liquid": 5.914,
+  "n_nuisance_models": 144,
+  "all_models": {
+    "best_fraction_range": [
+      7.305813281540354e-21,
+      0.07999999999999999
+    ],
+    "formal_95pct_upper_range": [
+      0.0056154001849984475,
+      0.08
+    ]
+  },
+  "lower_residual_half_of_models": {
+    "n": 72,
+    "median_best_fraction": 0.0019265564286889748,
+    "maximum_best_fraction": 0.01648776984060458,
+    "median_formal_95pct_upper": 0.008361703040116247,
+    "maximum_formal_95pct_upper": 0.024156270733520536
+  },
+  "claim_boundary": "model-robustness envelope only; a calibrated 1-13C acetate spike is required for a defensible analytical detection limit"
+}

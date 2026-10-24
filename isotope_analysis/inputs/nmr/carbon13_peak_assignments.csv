@@ -1,0 +1,21 @@
+﻿condition,ppm,relative_peak_intensity,assignment_region,source
+13gas_12liquid,181.608276,0.1443839,acetate carbonyl,Bruker TopSpin peaklist.xml
+13gas_12liquid,181.194839,0.1262786,acetate carbonyl,Bruker TopSpin peaklist.xml
+13gas_12liquid,171.029251,3.869557,formate,Bruker TopSpin peaklist.xml
+13gas_12liquid,162.534103,15.0,DIC,Bruker TopSpin peaklist.xml
+13gas_12liquid,63.844414,0.1731316,n-propanol CH2OH region,Bruker TopSpin peaklist.xml
+13gas_12liquid,63.549961,0.1711334,n-propanol CH2OH region,Bruker TopSpin peaklist.xml
+13gas_12liquid,62.713863,0.1159898,n-propanol CH2OH region,Bruker TopSpin peaklist.xml
+13gas_12liquid,57.704155,0.8109976,ethanol CH2OH region,Bruker TopSpin peaklist.xml
+13gas_12liquid,57.407543,0.7981195,ethanol CH2OH region,Bruker TopSpin peaklist.xml
+13gas_12liquid,24.976549,0.1150025,acetate methyl / n-propanol middle-carbon overlap,Bruker TopSpin peaklist.xml
+13gas_12liquid,24.686821,0.1294019,acetate methyl / n-propanol middle-carbon overlap,Bruker TopSpin peaklist.xml
+13gas_12liquid,24.407755,0.1198213,acetate methyl / n-propanol middle-carbon overlap,Bruker TopSpin peaklist.xml
+13gas_12liquid,23.674917,0.2591735,acetate methyl / n-propanol middle-carbon overlap,Bruker TopSpin peaklist.xml
+13gas_12liquid,23.259344,0.2574021,acetate methyl / n-propanol middle-carbon overlap,Bruker TopSpin peaklist.xml
+13gas_12liquid,17.140804,1.105588,ethanol methyl region,Bruker TopSpin peaklist.xml
+13gas_12liquid,16.844545,1.028101,ethanol methyl region,Bruker TopSpin peaklist.xml
+13gas_12liquid,9.837042,0.2239374,n-propanol terminal-methyl region,Bruker TopSpin peaklist.xml
+13gas_12liquid,9.562137,0.2155741,n-propanol terminal-methyl region,Bruker TopSpin peaklist.xml
+12gas_13liquid,171.028656,0.2408295,formate,Bruker TopSpin peaklist.xml
+12gas_13liquid,161.71727,15.0,DIC,Bruker TopSpin peaklist.xml

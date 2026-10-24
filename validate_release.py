@@ -14,7 +14,7 @@ import species_transfer_model as s
 def main():
     index=json.loads((ROOT/'results/case_index.json').read_text())
     assert len(index)==36 and sum(r['kind']=='screen' for r in index)==30
-    figure=pd.read_csv(ROOT/'figure4/data/Figure4_source_data_all_sensitivities.csv')
+    profiles=pd.read_csv(ROOT/'profile_plots/data/profiles_all_transfer_scenarios.csv')
     count=0;maxima={}
     for row in index:
         folder=ROOT/'results/cases'/row['id']
@@ -37,7 +37,7 @@ def main():
         for species in s.m.SP:assert df[species+'_mM'].min()>=-1e-8
         assert len(df)==cfg.n_catalyst+cfg.n_external
         if row['kind']=='screen':
-            f=figure[np.isclose(figure.delta_CO2_um,cfg.delta_CO2_um)&np.isclose(figure.chi,cfg.chi)].reset_index(drop=True)
+            f=profiles[np.isclose(profiles.delta_CO2_um,cfg.delta_CO2_um)&np.isclose(profiles.chi,cfg.chi)].reset_index(drop=True)
             assert len(f)==len(df)
             for column in ['z_nm','CO2_mM','DIC_mM','OH_mM','Cs_mM','f13_CO2_13gas','f13_CO2_13liquid']:
                 assert np.allclose(df[column],f[column],rtol=2e-14,atol=1e-14),(row['id'],column)

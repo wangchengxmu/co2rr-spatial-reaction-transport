@@ -1,4 +1,20 @@
-# Release preparation: 2026-10-24
+# Release notes
+
+## v1.1.0 — Experimental isotope analyses and standalone organization
+
+Added numerical proton-NMR FIDs and minimal acquisition metadata, processed
+direct-¹³C spectra, preferred reporter-template fits, the 144-model acetate
+carbonyl sensitivity, ethylene fragmentation-response analysis and product
+carbon-source conversion. The analytical methods distinguish fitted estimates,
+curated reporter intervals and independent carbon-position assignments.
+Quantitative CO isotope estimates are not included.
+
+Renamed the plot module, source tables and output plots by their physical
+contents rather than paper figure numbers. Added standalone methods, usage and
+analytical regression tests. Spatial equations, coefficients and archived
+concentration/isotope states are unchanged.
+
+## v1.0.0 — Spatial model release, 2026-10-24
 
 The archived numerical results are from the completed 30-case species-dependent
 external-transfer screen, plus six verification cases. No scientific equation,
@@ -15,8 +31,8 @@ Changes from the working calculation files:
    names; sanitized archived JSON path keys similarly, retaining the input hashes.
 4. Added portable screen/plot/check/post-processing commands. The older
    Windows-only runner, logs, locks and HTML-integration side effects are omitted.
-5. Preserved the existing Figure 4 redraw, with PDF output opt-in rather than
-   automatic. No figure-layout redesign or experimental-image editing was done.
+5. Preserved the editable transport-profile renderer, with PDF output opt-in
+   rather than automatic. No experimental-image editing is included.
 6. Updated the parameter ledger's old base-module numerical defaults to the
    actual corrected solver (48/96/24 grid, BDF 1e-9/2e-10 and tightened closure).
 7. Added explicit warnings about effective versus actual flow, pH input 3.4,
@@ -29,7 +45,8 @@ inputs. A public checksum manifest covers the release files (excluding generated
 run outputs and itself). Portability additions do not retroactively claim the
 whole screen was newly recalculated on the release date.
 
-This release contains no manuscript/SI documents, experimental raw archive,
-literature PDFs, author emails, comments, correspondence, local HTML reports,
-credentials or Git history from the larger workspace. NMR/GC–MS processing and
-legacy active-learning notebook repairs remain outside this spatial release.
+This release contains no source documents, experimental raw archive, literature
+PDFs, author emails, comments, correspondence, local HTML reports, credentials
+or Git history from the larger workspace. The packaged workflows operate on
+curated, provenance-linked numerical inputs; large unprocessed archives remain
+outside this release.

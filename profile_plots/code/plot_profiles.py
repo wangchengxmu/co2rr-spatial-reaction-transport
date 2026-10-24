@@ -1,8 +1,8 @@
-"""Redraw manuscript Figure 4 directly from the packaged model-output CSV.
+"""Render editable transport profiles directly from packaged model-output CSV.
 
 The numerical profiles are treated as immutable inputs. This script does not
-rerun or refit the transport model. It recreates the current composite and the
-seven separately editable panels in PNG/SVG (optional --pdf).
+rerun or refit the transport model. It creates a self-contained composite and
+seven separately editable profile panels in PNG/SVG (optional --pdf).
 """
 
 from pathlib import Path
@@ -18,12 +18,12 @@ from matplotlib.ticker import MaxNLocator
 import numpy as np
 import pandas as pd
 
-from draw_model_schematic import draw_model_schematic
+from draw_geometry import draw_geometry
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "Figure4_source_data_all_sensitivities.csv"
-OUT = ROOT / "redrawn"
+DATA_PATH = ROOT / "data" / "profiles_all_transfer_scenarios.csv"
+OUT = ROOT / "rendered"
 OUT.mkdir(exist_ok=True)
 
 MM = 1 / 25.4
@@ -175,7 +175,7 @@ PANELS = [
 def main():
     figure = plt.figure(figsize=(183 * MM, 238 * MM))
     schematic = figure.add_axes([0.025, 0.807, 0.95, 0.185])
-    draw_model_schematic(schematic)
+    draw_geometry(schematic)
     for text in schematic.texts:
         text.set_fontsize(max(text.get_fontsize(), 8.7))
         if text.get_text() == "Flow, x":
@@ -199,21 +199,21 @@ def main():
             [0.11 if index % 2 == 0 else 0.615, 0.555 - (index // 2) * 0.24, 0.35, 0.163]
         )
         profile(axis, column, title, chr(98 + index))
-    save(figure, "Figure4_redrawn")
+    save(figure, "transport_profiles")
 
     panel_a = plt.figure(figsize=(168 * MM, 43 * MM))
     schematic = panel_a.add_axes([0, 0, 1, 1])
-    draw_model_schematic(schematic)
+    draw_geometry(schematic)
     for text in schematic.texts:
         text.set_fontsize(max(text.get_fontsize(), 8.7))
         if text.get_text() == "Flow, x":
             text.set_text("Effective flow, x")
-    save(panel_a, "Figure4_panel_a_redrawn")
+    save(panel_a, "profile_a_geometry")
 
     for index, (column, title) in enumerate(PANELS):
         panel = plt.figure(figsize=(88 * MM, 61 * MM))
         profile(panel.add_axes([0.16, 0.27, 0.81, 0.54]), column, title, chr(98 + index))
-        save(panel, f"Figure4_panel_{chr(98 + index)}_redrawn")
+        save(panel, f"profile_{chr(98 + index)}")
 
     qa = {
         "source_csv": DATA_PATH.name,
@@ -223,8 +223,8 @@ def main():
         "low_CO2_masked": False,
         "liquid_view_um": LIQUID_VIEW_UM,
     }
-    (OUT / "redraw_QA.json").write_text(json.dumps(qa, indent=2), encoding="utf-8")
-    print(f"Redrew Figure 4 and seven panels from {DATA_PATH.name}")
+    (OUT / "profile_render_QA.json").write_text(json.dumps(qa, indent=2), encoding="utf-8")
+    print(f"Rendered transport profiles and seven editable panels from {DATA_PATH.name}")
 
 
 if __name__ == "__main__":

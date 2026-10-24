@@ -2403,19 +2403,19 @@
   ],
   "figures": [
     {
-      "figure": "restored_Cu_isotope_comparison",
+      "figure": "Cu_isotope_comparison",
       "outside_canvas_text": []
     },
     {
-      "figure": "restored_d10_spatial_profiles",
+      "figure": "spatial_profiles_d10",
       "outside_canvas_text": []
     },
     {
-      "figure": "restored_d30_spatial_profiles",
+      "figure": "spatial_profiles_d30",
       "outside_canvas_text": []
     },
     {
-      "figure": "restored_d50_spatial_profiles",
+      "figure": "spatial_profiles_d50",
       "outside_canvas_text": []
     }
   ],

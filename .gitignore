@@ -7,7 +7,8 @@ __pycache__/
 *.lock
 /runs/
 /derived/
-figure4/redrawn/
+profile_plots/rendered/
+profile_plots/redrawn/
 model/species_transfer_screen/
 .DS_Store
 Thumbs.db

@@ -5,7 +5,8 @@
     "numpy": "2.2.6",
     "scipy": "1.15.3",
     "pandas": "2.3.1",
-    "matplotlib": "3.10.1"
+    "matplotlib": "3.10.1",
+    "nmrglue": "0.11"
   },
   "archived_cases_rechecked": 36,
   "raw_station_states_rechecked": 936,
@@ -23,12 +24,27 @@
     "n_axial": 4,
     "status": "passed"
   },
-  "plot_redraws": "compact sensitivity figures and existing Figure4 composite/panels reproduced",
+  "plot_redraws": "descriptive spatial profile plots and editable geometry/profile composite",
   "model_postprocess": {
     "transport_cases": 30,
     "pairing_null_predictions": 60,
     "pair_identity": "passed"
   },
   "full_nonlinear_campaign_rerun": false,
-  "experimental_validation_of_concentrations": false
+  "experimental_validation_of_concentrations": false,
+  "isotope_analysis": {
+    "numeric_proton_FIDs": 3,
+    "processed_direct_carbon_spectra": 2,
+    "preferred_NMR_fit_summary": "byte-identical to frozen output in the tested environment",
+    "acetate_models": 144,
+    "acetate_grid_and_summary": "byte-identical to frozen output in the tested environment",
+    "ethylene_response_grid_per_feed": 6561,
+    "accepted_ethylene_fits": [
+      644,
+      374
+    ],
+    "product_source_conversion": "matches accepted reporter and ethylene ranges",
+    "NMR_endpoint_ranges": "curated inputs; not all endpoints automatically reconstructed",
+    "quantitative_CO_analysis": false
+  }
 }

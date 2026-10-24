@@ -1,0 +1,8 @@
+{
+  "natural_13C": 0.0107,
+  "grid_points_per_response_ratio": 81,
+  "acceptance": "relative L2 residual <= best + 0.02",
+  "uncertainty": "declared response-model range, not a confidence interval",
+  "pair_order": "12C-13C includes both orders; random mixed fraction is 2p(1-p)",
+  "scope": "ethylene only; no quantitative CO or methane isotope assignment"
+}

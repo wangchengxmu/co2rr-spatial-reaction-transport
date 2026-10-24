@@ -1567,39 +1567,59 @@
     "public_sha256": "87aee65d3d9344ff40d09961a62bd9b3659bb78914808b594108e7df4104e425"
   },
   {
-    "source": "redraw_figure4.py",
-    "public": "figure4/code/redraw_figure4.py",
+    "source": "original transport-profile plot_profiles.py",
+    "public": "profile_plots/code/plot_profiles.py",
     "original_sha256": "f808af04c7915e29263dd78b50be0c8bb3ecd3efc7c436b25d73039fe891f1ed",
-    "public_sha256": "ab9049ab2777504657769ad415c0a974d18feef4b0d8a6d4a869427b4a7a0175"
+    "public_sha256": "f0fca9954e1838693b200b673b3c9913c29564bfab7b14986f477088f075074b",
+    "change": "Standalone descriptive names; numerical profile CSV bytes unchanged"
   },
   {
-    "source": "draw_model_schematic.py",
-    "public": "figure4/code/draw_model_schematic.py",
+    "source": "original transport-profile draw_geometry.py",
+    "public": "profile_plots/code/draw_geometry.py",
     "original_sha256": "ff8035fea051543c7213a990f2dcdc580fdb9d03e1d4beea1c0fbf27d5cc8f27",
-    "public_sha256": "ff8035fea051543c7213a990f2dcdc580fdb9d03e1d4beea1c0fbf27d5cc8f27"
+    "public_sha256": "7c058c09020d8ea0164d776cc17bc68821ec84b6270c1e0eb1cf5934f0d54b00",
+    "change": "Standalone descriptive names; numerical profile CSV bytes unchanged"
   },
   {
-    "source": "Figure4_source_data_10um.csv",
-    "public": "figure4/data/Figure4_source_data_10um.csv",
+    "source": "original transport-profile profiles_10um.csv",
+    "public": "profile_plots/data/profiles_10um.csv",
     "original_sha256": "bfa391a5ed5a0ce5509c0cf516399e13b35069bbf35e29a98ee96a1d784fe4e9",
-    "public_sha256": "bfa391a5ed5a0ce5509c0cf516399e13b35069bbf35e29a98ee96a1d784fe4e9"
+    "public_sha256": "bfa391a5ed5a0ce5509c0cf516399e13b35069bbf35e29a98ee96a1d784fe4e9",
+    "change": "Standalone descriptive names; numerical profile CSV bytes unchanged"
   },
   {
-    "source": "Figure4_source_data_all_sensitivities.csv",
-    "public": "figure4/data/Figure4_source_data_all_sensitivities.csv",
+    "source": "original transport-profile profiles_all_transfer_scenarios.csv",
+    "public": "profile_plots/data/profiles_all_transfer_scenarios.csv",
     "original_sha256": "cd30e63dc660168db1d8ac1ae5a900910d1263b3fec4c90087b4e389b85e43f9",
-    "public_sha256": "cd30e63dc660168db1d8ac1ae5a900910d1263b3fec4c90087b4e389b85e43f9"
+    "public_sha256": "cd30e63dc660168db1d8ac1ae5a900910d1263b3fec4c90087b4e389b85e43f9",
+    "change": "Standalone descriptive names; numerical profile CSV bytes unchanged"
   },
   {
-    "source": "Figure4_column_dictionary.csv",
-    "public": "figure4/data/Figure4_column_dictionary.csv",
+    "source": "original transport-profile columns.csv",
+    "public": "profile_plots/data/columns.csv",
     "original_sha256": "09f81f72078dbd396ad2e084612e3c384391bb7eddc0391bc54e08a4ccc2dbfa",
-    "public_sha256": "09f81f72078dbd396ad2e084612e3c384391bb7eddc0391bc54e08a4ccc2dbfa"
+    "public_sha256": "09f81f72078dbd396ad2e084612e3c384391bb7eddc0391bc54e08a4ccc2dbfa",
+    "change": "Standalone descriptive names; numerical profile CSV bytes unchanged"
   },
   {
-    "source": "Figure4_transport_summary.csv",
-    "public": "figure4/data/Figure4_transport_summary.csv",
+    "source": "original transport-profile transport_summary.csv",
+    "public": "profile_plots/data/transport_summary.csv",
     "original_sha256": "f39e3c9233bd85adfae1f8e4a5a4df85b52ffc023d9a96c80ccaae6735eaf24f",
-    "public_sha256": "f39e3c9233bd85adfae1f8e4a5a4df85b52ffc023d9a96c80ccaae6735eaf24f"
+    "public_sha256": "f39e3c9233bd85adfae1f8e4a5a4df85b52ffc023d9a96c80ccaae6735eaf24f",
+    "change": "Standalone descriptive names; numerical profile CSV bytes unchanged"
+  },
+  {
+    "source": "preferred proton-NMR reporter-template source",
+    "public": "isotope_analysis/nmr_templates.py",
+    "original_sha256": "c6ae593e11111b00c7add78d65a82962cab4bf5304ec8e458220242efb253852",
+    "public_sha256": "f40e84c90ca83b396377ae9a532d2c96f2061ae4dde8b5a43102a2184a9f2444",
+    "change": "Portable numeric-input loader and explicit CLI; numerical fitting algorithms preserved"
+  },
+  {
+    "source": "acetate carbonyl sensitivity source",
+    "public": "isotope_analysis/acetate_carbonyl.py",
+    "original_sha256": "eeb7fde061c84cb1b38286496d74a7a8f9eff6a5f79ab821f7bcabc2b5af742b",
+    "public_sha256": "67ddafbd0fb39cf45f588b05b4ff7ce0d880654100aa8bb858d573717d3871e3",
+    "change": "Portable numeric-input loader and explicit CLI; numerical fitting algorithms preserved"
   }
 ]

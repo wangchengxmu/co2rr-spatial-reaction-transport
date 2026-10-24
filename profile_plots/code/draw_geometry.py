@@ -58,7 +58,7 @@ def porous_metal(ax):
                 cmap=copper,vmin=.15,vmax=.95,zorder=2,antialiased=False)
     ax.contour(X,Y,field,levels=[.58],colors=['#815D4D'],linewidths=.48,zorder=3)
 
-def draw_model_schematic(ax):
+def draw_geometry(ax):
     ax.set_xlim(0,168);ax.set_ylim(0,43);ax.set_aspect('equal');ax.axis('off')
     gas_end=34;cat_end=75;outer=157;bottom=10;top=30
     ax.text(1,42,'a',weight='bold',fontsize=11,va='top')
@@ -107,7 +107,7 @@ def draw_model_schematic(ax):
 def export_panel():
     plt.rcParams.update({'font.family':['Arial','DejaVu Sans'],'svg.fonttype':'none'})
     fig=plt.figure(figsize=(168*MM,43*MM));ax=fig.add_axes([0,0,1,1])
-    draw_model_schematic(ax)
+    draw_geometry(ax)
     for ext in ['png','svg']:fig.savefig(HERE/f'panel_a_model_geometry.{ext}',dpi=400,facecolor='white')
     plt.close(fig)
 

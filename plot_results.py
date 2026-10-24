@@ -175,7 +175,7 @@ def build(results_root: Path, out: Path) -> dict[str, Any]:
             raise AssertionError("Plotted data differ from the source CSV")
         curves.append({"delta_CO2_um": delta, "chi": chi, "field": field, "Cu_only": cu_only, "n_points": len(y), "exact_CSV_values": True})
 
-    # Cu-only isotope comparison: the compact style used in the manuscript.
+    # Cu-only isotope comparison, with each transfer scenario on the same axes.
     fig, axes = plt.subplots(3, 2, figsize=(12, 11.5))
     fig.subplots_adjust(left=0.085, right=0.975, bottom=0.075, top=0.815, hspace=0.62, wspace=0.30)
     fig.suptitle("Isotope distribution within the 200 nm Cu layer", x=0.085, ha="left", y=0.987, fontsize=19)
@@ -196,7 +196,7 @@ def build(results_root: Path, out: Path) -> dict[str, Any]:
             ax.text(0.98, 1.03, rf"CO$_2$ transfer length: {delta} µm", transform=ax.transAxes, ha="right", fontsize=10)
             position = ax.get_position()
             fig.text(position.x0 - 0.045, position.y1 + 0.03, chr(97 + 2 * row + col), weight="bold", fontsize=14)
-    export(fig, "restored_Cu_isotope_comparison")
+    export(fig, "Cu_isotope_comparison")
 
     for delta in DELTAS:
         fig, axes = plt.subplots(4, 2, figsize=(12, 14))
@@ -225,7 +225,7 @@ def build(results_root: Path, out: Path) -> dict[str, Any]:
             ax.text(0.70, -0.23, "Distance from Cu (µm)", transform=ax.transAxes, ha="center", fontsize=10)
             box = ax.get_position()
             fig.text(box.x0 - 0.048, box.y1 + 0.029, chr(97 + index), fontsize=14, weight="bold")
-        export(fig, f"restored_d{delta}_spatial_profiles")
+        export(fig, f"spatial_profiles_d{delta}")
         for ratio in RATIOS:
             frame = data[(delta, ratio)]
             copper = frame[frame.region == "catalyst"]

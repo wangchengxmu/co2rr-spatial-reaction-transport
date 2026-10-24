@@ -1,0 +1,9 @@
+{
+  "natural_13C": 0.0107,
+  "enriched_13C": 0.99,
+  "equation": "F13 = g F13_gas + (1-g) F13_liquid",
+  "local_endmembers": "feed enrichments used as assumptions; local reacting-reservoir enrichments not measured",
+  "out_of_bounds": "raw estimates retained alongside physical [0,1] clipping",
+  "NMR_scope": "numeric percentages refer to named reporter carbons; other resolved carbons have an independent assignment ledger",
+  "not_a_depth": "source fraction is not a unique reaction depth or a mechanistic assignment"
+}
