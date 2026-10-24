@@ -102,6 +102,3 @@ are retained, including depleted external-liquid cells with relatively larger
 isotope reconstruction error. Read [validation and limitations](docs/VALIDATION.md)
 before using these results.
 
-This repository does **not** deposit the NMR/GC–MS analysis code or repair the
-older active-learning notebooks. A reuse license has not yet been selected;
-public availability alone is not an open-source license.
