@@ -18,4 +18,13 @@ jobs:
       - run: python -m unittest isotope_analysis.test_analysis isotope_analysis.test_nmr
       - run: python -m isotope_analysis.acetate_carbonyl --out runs/acetate_carbonyl
       - run: python -m isotope_analysis.validate_analyses --acetate runs/acetate_carbonyl
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: acetate-carbonyl-validation
+          path: |
+            runs/acetate_carbonyl/acetate_carbonyl_grid.csv
+            runs/acetate_carbonyl/acetate_carbonyl_summary.json
+          retention-days: 7
+          if-no-files-found: ignore
       - run: python postprocess.py --out derived
