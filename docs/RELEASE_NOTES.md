@@ -14,6 +14,12 @@ contents rather than paper figure numbers. Added standalone methods, usage and
 analytical regression tests. Spatial equations, coefficients and archived
 concentration/isotope states are unchanged.
 
+The historical acetate-carbonyl sensitivity is explicitly exploratory:
+individual nonlinear fits and linearized uncertainties vary across numerical
+platforms. Strict comparison remains available; CI checks its table structure,
+bounds and summary arithmetic while retaining all comparison differences.
+These optional fits are not inputs to the accepted source-fraction table.
+
 ## v1.0.0 — Spatial model release, 2026-10-24
 
 The archived numerical results are from the completed 30-case species-dependent

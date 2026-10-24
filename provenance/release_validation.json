@@ -35,9 +35,9 @@
   "isotope_analysis": {
     "numeric_proton_FIDs": 3,
     "processed_direct_carbon_spectra": 2,
-    "preferred_NMR_fit_summary": "byte-identical to frozen output in the tested environment",
+    "preferred_NMR_fit_summary": "byte-identical on tested Windows; unit-aware regression on Linux",
     "acetate_models": 144,
-    "acetate_grid_and_summary": "byte-identical to frozen output in the tested environment",
+    "acetate_grid_and_summary": "historical Windows snapshot; individual Linux fits differ; portable checks cover structural integrity only, not fit convergence",
     "ethylene_response_grid_per_feed": 6561,
     "accepted_ethylene_fits": [
       644,

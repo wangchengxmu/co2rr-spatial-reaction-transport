@@ -1619,7 +1619,7 @@
     "source": "acetate carbonyl sensitivity source",
     "public": "isotope_analysis/acetate_carbonyl.py",
     "original_sha256": "eeb7fde061c84cb1b38286496d74a7a8f9eff6a5f79ab821f7bcabc2b5af742b",
-    "public_sha256": "67ddafbd0fb39cf45f588b05b4ff7ce0d880654100aa8bb858d573717d3871e3",
+    "public_sha256": "fd4c41f931c94d95d1887e594ee5c96801927fb1a8657fb3cc608c4dd076c648",
     "change": "Portable numeric-input loader and explicit CLI; numerical fitting algorithms preserved"
   }
 ]

@@ -27,7 +27,7 @@ python -m isotope_analysis.nmr_templates --out runs/nmr
 python -m isotope_analysis.gcms_analysis --out runs/gcms
 python -m isotope_analysis.source_fractions --gcms runs/gcms/ethylene_response_envelopes.csv --out runs/sources
 
-# Detailed acetate-carbonyl sensitivity:
+# Optional historical acetate-carbonyl sensitivity (see numerical limitations):
 python -m isotope_analysis.acetate_carbonyl --out runs/acetate_carbonyl
 
 # Saved spatial calculations and descriptive plots:
@@ -52,7 +52,7 @@ carbon-12. The isotope experiments used a phosphine-modified Cu electrode at
 | Analysis | Numerical inputs | Principal outputs |
 |---|---|---|
 | Proton NMR | Three complex FIDs and selected acquisition parameters | Spectra, reporter fits, component curves and residuals |
-| Acetate carbonyl | Liquid-labelled proton FID | 144 line-shape/window/coupling/baseline alternatives |
+| Acetate carbonyl, exploratory | Liquid-labelled proton FID | 144 historical line-shape/window/coupling/baseline alternatives |
 | Ethylene GC–MS | Four mass spectra, m/z 26–30 | Accepted response fits, isotope ranges and random-pairing comparisons |
 | Carbon-source conversion | Declared NMR ranges and calculated ethylene ranges | Independent source estimates for each feed and their combined span |
 
@@ -75,6 +75,12 @@ These are analytical-response/assignment spans, **not statistical confidence
 intervals**. NMR endpoint ranges are curated analytical inputs; the preferred
 fit does not automatically derive every endpoint. Raw and physically bounded
 source conversions are both retained.
+
+The optional acetate-carbonyl sensitivity has platform-dependent nonlinear
+minima and linearized uncertainties. Its archived numerical output is retained
+for inspection, but it is **not an input to the source-fraction table above**.
+Structural checks do not establish convergence of those individual weak-signal
+fits. See [validation scope](docs/VALIDATION.md#experimental-analysis-validation).
 
 The separate [carbon-position ledger](isotope_analysis/inputs/carbon_position_assignments.csv)
 also records predominantly gas-derived ethanol CH₂OH, both n-propanol methylenes,
@@ -152,7 +158,7 @@ for version scope.
 ```sh
 python validate_release.py
 python model/test_species_transfer.py
-python -m unittest test_release_tools isotope_analysis.test_analysis isotope_analysis.test_nmr
+python -m unittest test_release_tools isotope_analysis.test_analysis isotope_analysis.test_nmr isotope_analysis.test_validation
 ```
 
 Numerical reproducibility checks do not experimentally validate a particular

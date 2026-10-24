@@ -15,10 +15,11 @@ jobs:
       - run: python validate_release.py
       - run: python model/test_species_transfer.py
       - run: python -m unittest test_release_tools.py
-      - run: python -m unittest isotope_analysis.test_analysis isotope_analysis.test_nmr
+      - run: python -m unittest isotope_analysis.test_analysis isotope_analysis.test_nmr isotope_analysis.test_validation
       - run: python -m isotope_analysis.acetate_carbonyl --out runs/acetate_carbonyl
         if: always()
-      - run: python -m isotope_analysis.validate_analyses --acetate runs/acetate_carbonyl
+      - name: Check exploratory acetate table integrity and record strict differences
+        run: python -m isotope_analysis.validate_analyses --acetate runs/acetate_carbonyl --contract-only > runs/acetate_carbonyl/validation_report.json
         if: always()
       - uses: actions/upload-artifact@v4
         if: always()
@@ -27,6 +28,7 @@ jobs:
           path: |
             runs/acetate_carbonyl/acetate_carbonyl_grid.csv
             runs/acetate_carbonyl/acetate_carbonyl_summary.json
+            runs/acetate_carbonyl/validation_report.json
           retention-days: 7
           if-no-files-found: ignore
       - run: python postprocess.py --out derived

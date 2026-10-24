@@ -60,3 +60,23 @@ figures are excluded from the checksum manifest). It does not rerun every nonlin
 solve. `python model/test_species_transfer.py` runs the Jacobian/source/passive
 benchmark tests. A separate smoke run demonstrates that the packaged solver can
 produce a new result. Full-screen recalculation is an explicit separate command.
+
+## Experimental analysis validation
+
+Preferred proton-reporter fits are regression-tested with unit-aware numerical
+tolerances. Ethylene response families and source conversion have independent
+tests, including natural-abundance correction, both feed directions and the
+factor two in random mixed-pair probability. Frozen numerical input/output
+hashes remain byte-exact checks.
+
+The optional historical acetate-carbonyl grid is different: strict regression
+of all fitted nuisance parameters fails in the checked Linux environment.
+Some individual minima and residuals differ materially, not just in their last
+digits. The original algorithm and Windows snapshot are retained with this
+limitation; they are not inputs to the accepted product source-fraction table.
+CI uses explicit `--contract-only` validation for this grid: all 144 setting
+combinations, finite values, declared bounds and summaries recomputed from the
+generated table must agree internally. Strict reference differences are still
+reported in full and retained with the numerical tables as a CI artifact.
+A passing structural contract must not be described as convergence validation
+or exact reproduction of these exploratory fits.

@@ -94,6 +94,18 @@ formal upper about 0.0242. Residual ranking is not independent model validation.
 These are line-shape sensitivity results, **not a calibrated detection limit
 or a general carbonyl-label fraction**. The complete grid is retained.
 
+This historical optimizer is not numerically portable at the level of every
+individual fit. In a checked Windows/Linux comparison, an individual best
+fraction differed by up to 0.0114 and an individual residual sum of squares by
+nearly a factor seven. Thus the discrepancy is not simply output rounding.
+The lower-residual-half maximum formal upper was about 0.0242 on both systems,
+but its median changed from about 0.00836 to 0.00878. The mixture parameter is
+unused for three of the four line families, and weak-signal fitting and
+linearized covariance require particular care. No claim of a unique optimum
+or a validated analytical limit follows from the aggregate agreement. The
+historical algorithm and snapshot are preserved rather than silently changing
+the analysis. Its fractions do not supply the accepted source-conversion table.
+
 ## Ethylene GC–MS: fragments are not molecules
 
 `inputs/ethylene_mass_spectra.csv` contains m/z 26–30 for an unlabelled standard,
@@ -187,3 +199,11 @@ spacing. Different numerical libraries can return slightly different minimizers,
 especially weak-control satellite positions. These computational tolerances are
 not analytical confidence intervals. Frozen input and output file hashes still
 require exact byte identity.
+
+`validate_analyses --acetate PATH` performs strict comparison against the
+historical acetate snapshot and can fail on a different numerical platform.
+`--contract-only` instead checks the complete model grid, physical parameter
+bounds and internal summary arithmetic, while still reporting every strict
+comparison discrepancy. This mode does not certify fit convergence, a global
+minimum or numerical identity of the acetate fits. CI retains the generated
+acetate tables and full comparison report for inspection.

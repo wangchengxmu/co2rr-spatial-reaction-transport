@@ -4,6 +4,11 @@ The 144 fits vary window, coupling, line shape and baseline degree.  The
 calculation tests the resolved two-bond acetate-methyl/carbonyl reporter only;
 it does not add the older whole-molecule fits.
 
+This is the historical, exploratory optimizer. Individual minima and linearized
+uncertainties are platform-sensitive; neither a unique optimum nor a calibrated
+analytical limit is established. Outputs are not source_fractions inputs.
+See docs/ISOTOPE_ANALYSIS.md and docs/VALIDATION.md before interpretation.
+
 Run ``python -m isotope_analysis.acetate_carbonyl --out PATH`` after installing
 the pinned dependencies and supplying the portable ``12gas_13liquid`` FID.
 """
