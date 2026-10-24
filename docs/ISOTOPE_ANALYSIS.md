@@ -179,3 +179,10 @@ tables are deposited, not vendor operator/host/audit metadata or the entire
 archive. Preferred fits, the acetate grid, ethylene families and source conversion
 have distinct outputs to separate data, processing, fitted results, curated inputs
 and interpretation.
+
+Nonlinear-fit regression uses a relative tolerance of 2×10⁻⁶ plus an absolute
+floor of 2×10⁻¹⁰. Different numerical libraries can return slightly different
+minimizers: the checked Windows/Linux comparison changed reporter fractions by
+less than 10⁻⁸ and a fitted satellite separation by about 1.1×10⁻⁷ ppm. These
+computational tolerances are not analytical confidence intervals. Frozen input
+and output file hashes still require exact byte identity.
